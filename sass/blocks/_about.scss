@@ -1,0 +1,40 @@
+.about {
+  padding-bottom: 0;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    max-width: 270px;
+  }
+
+  &__icon {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #f5f4fa;
+    border-radius: 4px;
+  }
+
+  &__title {
+    color: var(--c-dark);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    color: var(--c-boulder);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    font-weight: 400;
+    max-width: 270px;
+  }
+}
